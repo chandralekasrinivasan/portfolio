@@ -8,36 +8,24 @@ import { List, Avatar } from 'antd';
 const data = [
     {
       title: 'Maya',
-      src:'https://raw.githubusercontent.com/SreelekhaSrinivasan/portfolio-site/master/src/assets/images/maya.png'
+      src:'https://raw.githubusercontent.com/chandralekasrinivasan/assets/main/Maya.png'
     },
     {
       title: 'Photoshop',
-      src:'https://raw.githubusercontent.com/SreelekhaSrinivasan/portfolio-site/master/src/assets/images/Photoshop.png'
+      src:'https://raw.githubusercontent.com/chandralekasrinivasan/assets/main/Photoshop.png'
     },
     {
       title: 'Illustrator',
-      src:'https://raw.githubusercontent.com/SreelekhaSrinivasan/portfolio-site/master/src/assets/images/Illustratorpng.png'
+      src:'https://raw.githubusercontent.com/chandralekasrinivasan/assets/main/Illustrator.png'
     },
     {
       title: 'Procreate',
-      src:'https://raw.githubusercontent.com/SreelekhaSrinivasan/portfolio-site/master/src/assets/images/Procreate.png'
+      src:'https://raw.githubusercontent.com/chandralekasrinivasan/assets/main/Procreate.png'
     },
   ];
 
 export default class Skills extends React.Component{
-    state = {
-        current: 0,
-      };
-    
-      onChange = current => {
-        console.log('onChange:', current);
-        this.setState({ current });
-      };
-
     render(){
-
-        const { current } = this.state;
-
         return(
             <div className="skills_intro">
       <div className="header">Softwares Known</div>

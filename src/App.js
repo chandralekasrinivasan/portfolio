@@ -8,7 +8,6 @@ import Projects from './components/Projects';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import "./index.css";
 
-
 function App() {
   return (
     <Router>
@@ -24,11 +23,11 @@ function App() {
               <TransitionGroup>
               <CSSTransition key={location.key} timeout={450} classNames='fade'>
               <Switch location={location}>
-              <Route exact path="/aboutme" component={AboutMe} />
-              <Route exact path="/skills" component={Skills} />
               <Route exact path="/projects" component={Projects} />
+              <Route exact path="/skills" component={Skills} />
+              <Route exact path="/aboutme" component={AboutMe} />
               <Route>
-                <Redirect to="/aboutme"/>
+                <Redirect to="/projects"/>
               </Route>
               </Switch>
               </CSSTransition>

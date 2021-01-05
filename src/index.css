@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(to left top, #FC5C7D, #6A82FB);
+    /* background-image: linear-gradient(to left top, #FC5C7D, #6A82FB); */
+    background-color:#333333 !important;
     background-attachment: fixed;
 }
 a{
@@ -62,7 +63,8 @@ a:hover{
 .sidebar_name{
     font-size: 1.7rem;
     font-weight: bolder;
-    margin: 20px 0;
+    /* margin: 20px 0; */
+    margin-top:10px;
     background-image: linear-gradient(45deg, #FC5C7D, #6A82FB);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -80,14 +82,21 @@ a:hover{
     font-size: 1.05rem;
     border-radius:30px;
 }
-.sidebar_title{
-    background-color:#f1f1f1;
+.sidebar_typical{
+    font-weight:bold;
+    font-size:1rem;
+    background-image: linear-gradient(45deg, #FC5C7D, #6A82FB);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    margin-bottom:10px;
 }
 .sidebar_social-icons{
     border-radius:50%;
 }
 .sidebar_contact{
-    background-color:#f1f1f1;
     padding: 2px 0;
     margin:20px -15px;
 }
@@ -118,14 +127,11 @@ a:hover{
     opacity: 0;
     z-index: 1;
 }
-  
 .fade-enter.fade-enter-active {
     opacity: 1;
     transition: opacity 250ms ease-in;
 }
-
 /* Navbar */
-
 .navbar_items{
     display: flex;
 }
@@ -153,6 +159,7 @@ a:hover{
 /* About Me */
 .about_intro{
     padding:20px;
+    font-size: 1rem;
 }
 .aboutme_avatar{
     height: 144px;
@@ -160,9 +167,7 @@ a:hover{
     object-fit: contain;
     border-radius: 30%;
 }
-.about_content{
-    font-size: 1rem;
-}.header{
+.header{
     font-size: 1.25rem;
     font-weight: bold;
 }

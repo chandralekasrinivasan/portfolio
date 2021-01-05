@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-typical';
 import instagram from '../assets/icons/instagram.svg';
 import digitalartist from '../assets/digitalartist.jpg';
 import tie from '../assets/icons/tie.svg';
@@ -15,8 +16,17 @@ const Sidebar =() =>{
     return(
        <div className="sidebar">
           <img src={digitalartist} alt="Chan" className="sidebar_avatar"/> 
-          <div className="sidebar_name">Chandraleka <span>S</span></div>
-          <div className="sidebar_item sidebar_title">3D Animator</div>
+          <div className="sidebar_name">Chandraleka S </div>
+          {/* <div className="sidebar_item sidebar_title">(aka) 'Chan'</div> */}
+          <div className="sidebar_typical"><Typical loop={Infinity} wrapper="bold"
+                        steps={[
+                            'an Artist',2000,
+                            'an Animator',2000,
+                            'a Creative Thinker',2000,
+                            'a Perfectionist',2000,
+                            'an Anime Lover',2000,
+                            'a K-Pop Fan',2000,
+                        ]}/></div>
           <a href={resume} download="Chandraleka Resume.pdf">
               <div className="sidebar_item sidebar_resume">
                   <img src={tie} alt="resume" className="sidebar_icon"/>Download Resume
