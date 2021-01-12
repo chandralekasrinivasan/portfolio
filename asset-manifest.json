@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6da6e251.chunk.css",
-    "main.js": "/portfolio/static/js/main.9d41eef0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9d41eef0.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bcd43a74.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bcd43a74.chunk.js.map",
     "reactPlayerDailyMotion.js": "/portfolio/static/js/reactPlayerDailyMotion.c3b52d32.chunk.js",
     "reactPlayerDailyMotion.js.map": "/portfolio/static/js/reactPlayerDailyMotion.c3b52d32.chunk.js.map",
     "reactPlayerFacebook.js": "/portfolio/static/js/reactPlayerFacebook.63f91871.chunk.js",
@@ -30,14 +30,14 @@
     "runtime-main.js": "/portfolio/static/js/runtime-main.81d33a07.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.81d33a07.js.map",
     "static/css/14.ef440c72.chunk.css": "/portfolio/static/css/14.ef440c72.chunk.css",
-    "static/js/14.5829849b.chunk.js": "/portfolio/static/js/14.5829849b.chunk.js",
-    "static/js/14.5829849b.chunk.js.map": "/portfolio/static/js/14.5829849b.chunk.js.map",
+    "static/js/14.32c3f78a.chunk.js": "/portfolio/static/js/14.32c3f78a.chunk.js",
+    "static/js/14.32c3f78a.chunk.js.map": "/portfolio/static/js/14.32c3f78a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d2b6aab772ab259f6eb9ed42bbfa75b8.js": "/portfolio/precache-manifest.d2b6aab772ab259f6eb9ed42bbfa75b8.js",
+    "precache-manifest.1bd8ec58f53c92674281541c6431243a.js": "/portfolio/precache-manifest.1bd8ec58f53c92674281541c6431243a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/14.ef440c72.chunk.css.map": "/portfolio/static/css/14.ef440c72.chunk.css.map",
     "static/css/main.6da6e251.chunk.css.map": "/portfolio/static/css/main.6da6e251.chunk.css.map",
-    "static/js/14.5829849b.chunk.js.LICENSE.txt": "/portfolio/static/js/14.5829849b.chunk.js.LICENSE.txt",
+    "static/js/14.32c3f78a.chunk.js.LICENSE.txt": "/portfolio/static/js/14.32c3f78a.chunk.js.LICENSE.txt",
     "static/media/digitalartist.jpg": "/portfolio/static/media/digitalartist.c46d7dfc.jpg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.a2d7e7ba.svg",
     "static/media/phone.svg": "/portfolio/static/media/phone.ab36c3a0.svg",
@@ -49,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.81d33a07.js",
     "static/css/14.ef440c72.chunk.css",
-    "static/js/14.5829849b.chunk.js",
+    "static/js/14.32c3f78a.chunk.js",
     "static/css/main.6da6e251.chunk.css",
-    "static/js/main.9d41eef0.chunk.js"
+    "static/js/main.bcd43a74.chunk.js"
   ]
 }
